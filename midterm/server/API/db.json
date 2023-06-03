@@ -3,7 +3,7 @@
     {
       "name": "Doughnuts",
       "price": "15",
-      "image": "/images/1434429117-banh-su-kem-chien-20.jpg",
+      "image": "banh1.jpg",
       "color": "Hồng bánh kem",
       "name_category": "sản phẩm hot",
       "material": "Bánh và trứng",
@@ -16,7 +16,7 @@
     {
       "name": "Bánh Tiramisu Italia",
       "price": "36",
-      "image": "/images/banhbonglantrungmuoi.jpg",
+      "image": "banh2.jpg",
       "color": "Hồng bánh kem",
       "name_category": "sản phẩm mới",
       "material": "Bánh và trứng",
@@ -29,7 +29,7 @@
     {
       "name": "Bánh Macaron Pháp",
       "price": "50",
-      "image": "/images/1430967449-pancake-sau-rieng-6.jpg",
+      "image": "banh3.jpg",
       "color": "Hồng bánh kem",
       "name_category": "sản phẩm khuyến mãi",
       "material": "Bánh và trứng",
@@ -42,7 +42,7 @@
     {
       "name": "Bánh Tapioca Brazil",
       "price": "20",
-      "image": "/images/Fruit-Cake_7979.jpg",
+      "image": "Fruit-Cake_7979.jpg",
       "color": "Hồng bánh kem",
       "name_category": "sản phẩm hot",
       "material": "Bánh và trứng",
@@ -55,7 +55,7 @@
     {
       "name": "Bánh táo Mỹ",
       "price": "80",
-      "image": "/images/banh-mi-nhan-man.jpg",
+      "image": "banh-mi-nhan-man.jpg",
       "color": "Hồng",
       "name_category": "sản phẩm mới",
       "material": "Từ thiên nhiên",
@@ -68,7 +68,7 @@
     {
       "name": "Bánh Gateau St. Honore",
       "price": "25,6",
-      "image": "/images/saurieng-dua.jpg",
+      "image": "saurieng-dua.jpg",
       "color": "Hồng",
       "name_category": "sản phẩm khuyến mãi",
       "material": "Từ thiên nhiên",
@@ -81,7 +81,7 @@
     {
       "name": "Bánh Nếp",
       "price": "30",
-      "image": "/images/banhbonglantrung.jpg",
+      "image": "banhbonglantrung.jpg",
       "color": "Hồng",
       "name_category": "sản phẩm khuyến mãi",
       "material": "Từ thiên nhiên",
@@ -94,7 +94,7 @@
     {
       "name": "QUICK BREAD – BÁNH MÌ NHANH",
       "price": "13",
-      "image": "/images/50020041-combo-20-banh-su-que-pho-mai-9.jpg",
+      "image": "50020041-combo-20-banh-su-que-pho-mai-9.jpg",
       "color": "Xám cháy",
       "name_category": "sản phẩm hot",
       "material": "Bột mỳ và trứng, mè đậu phộng",
@@ -107,7 +107,7 @@
     {
       "name": "Bánh PVT",
       "price": "24",
-      "image": "/images/crepedau.jpg",
+      "image": "crepedau.jpg",
       "color": "Đỏ hồng",
       "name_category": "sản phẩm khuyến mãi",
       "material": "Nhà làm ",
@@ -116,41 +116,6 @@
       "description": "Bánh ngon bổ rẻ mà lại an toàn",
       "tinhtranghang": true,
       "id": "uccIyXa"
-    },
-    {
-      "name": "Bánh Gato mặn",
-      "price": "50",
-      "image": "imageprofile.jpg",
-      "color": "Màu hồng kem",
-      "name_category": "sản phẩm hot",
-      "expiry_date": "2023-06-06",
-      "origin": "Quãng Nam",
-      "description": "Bánh ngon",
-      "id": "CMO5Rpk"
-    },
-    {
-      "name": "Test",
-      "price": "70",
-      "image": "imagerubiks-cube-digital-art-wallpaper.jpg",
-      "color": "Hồng",
-      "category": "sản phẩm khuyến mãi",
-      "expiryDate": "2023-06-23",
-      "origin": "Viet Nam",
-      "description": "Test",
-      "id": "aQGFi-p"
-    },
-    {
-      "name": "Bánh nhật Bản",
-      "price": "30000",
-      "image": "/images/20131108144733.jpg",
-      "color": "Xanh",
-      "name_category": "",
-      "material": "Bột ngũ cốc",
-      "expiry_date": "2020-07-10",
-      "origin": "Việt Nam",
-      "description": "Ăn  càng nhiều càng tốt",
-      "tinhtranghang": true,
-      "id": "GyV1IQz"
     }
   ],
   "categories": [

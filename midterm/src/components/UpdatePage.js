@@ -27,23 +27,24 @@ const UpdatePage = () => {
       .get(`http://localhost:3000/products/${id}`)
       .then((res) => {
         const data = res.data;
+        console.log(data);
         setRecord(data);
         setUpdatedForm({
           name: data.name,
           price: data.price,
           image: data.image,
           color: data.color,
-          category: data.category,
+          category: data.name_category,
           expiryDate: data.expiryDate,
           origin: data.origin,
           description: data.description,
         });
+       
       })
       .catch((error) => {
         console.error("Error retrieving record:", error);
       });
   }, [id]);
-
   const handleUpdate = (e) => {
     e.preventDefault();
     const updatedRecord = {
@@ -81,7 +82,7 @@ const UpdatePage = () => {
         ...updatedForm,
         [name]:
           type === "file"
-            ? imageRef.current.value.replace(/C:\\fakepath\\/i, "image")
+            ? imageRef.current.value.replace(/C:\\fakepath\\/i, "")
             : value,
       });
     }
@@ -145,7 +146,7 @@ const UpdatePage = () => {
             <label>Loại sản phẩm:</label>
             <select
               className="form-control"
-              name="category"
+              name="name_category"
               value={updatedForm.category}
               onChange={handleChange}
               required="required"

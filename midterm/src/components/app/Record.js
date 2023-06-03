@@ -24,7 +24,7 @@ const Record = ({
       <td>{name}</td>
       <td>{price}</td>
       <td>
-        <img className="img-fluid rounded shadow" src={image} alt="" width={50} height={50}/>
+        <img className="img-fluid rounded shadow" src={`images/${image}`} alt="" width={50} height={50}/>
       </td>
       <td>{color}</td>
       <td>{category}</td>
